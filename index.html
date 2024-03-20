@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(10, 55, 170);
+            color:#fff;
+        }
+
+        .titulo {
+            text-align: center;
+            border-radius: 6px;
+            background-color: rgb(25, 51, 179);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Loja Carabinas de pressão</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4  col-md-6 col-sm-12">
+                <article class="card">
+                        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner ">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block w-100" src="./img/pcp.artemis.jpg" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pcps </h4>
+                                        <p class="card-text">
+                                            Carabina De Pressão Pcp Artemis M22 10 Tiros 5.5mm 
+                                        </p>
+                                        <a href="#" class="btn btn-success">Comprar</a>
+                                    </div>
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block w-100" src="./img/pcp.5.5.jpg" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pcps </h4>
+                                        <p class="card-text">
+                                            Carabina De Pressão Pcp Puncher Breaker W Bullpup 10 Tiros 6.35mm Kral 
+                                        </p>
+                                        <a href="#" class="btn btn-success">Comprar</a>
+                                    </div>
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block w-100" src="./img/pcp.combo.jpg" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pcps</h4>
+                                        <p class="card-text">
+                                            Carabina de Pressão PCP Artemis T-REX + Combo
+                                        </p>
+                                        <a href="#" class="btn btn-success">Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                            </div>       
+                </article>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        Loja das carabinas de pressão.
+                    </header>
+                    <img src="./img/banner-carabinas-pcps.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Loja Pcps</h4>
+                        <p class="card-text">
+                            Conheça todos nossos modelos .
+                        </p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>10/08/2022 às 19:00:00</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+                <div class="titulo"> 
+                    <h2>Faça seu cadastro</h2>             
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="email" aria-describedby="text" placeholder="Seu Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFone" class="control-label">Telefone</label>
+                        <input type="text" class="form-control" id="inputFone" placeholder="Telefone" pattern="\([0-9]{2}\)[0-9]{4,6}-[0-9]{3,4}$" required>
+                    <div class="help-block with-errors"></div>
+                    <div class="form-group">
+                        <label for="exampleCheck1">E-mail</label>
+                        <input type="email" class="form-control" id="exampleCheck1" placeholder="E-mail">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
